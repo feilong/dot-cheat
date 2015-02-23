@@ -1,0 +1,3 @@
+# http://afni.nimh.nih.gov/afni/community/board/read.php?1,145988,145994#msg-145994
+cat_matvec BtoC AtoB > AtoC
+cat_matvec vr.aff12.1D -I # we want input to base

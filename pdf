@@ -1,0 +1,2 @@
+# http://askubuntu.com/a/282455
+pdftk A=full-pdf.pdf cat A12-15 output outfile_p12-15.pdf

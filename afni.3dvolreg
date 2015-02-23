@@ -1,0 +1,8 @@
+3dvolreg \
+  -Fourier \ # for alignments
+  -final Fourier # for generating output files
+  -dfile {motion9} # n (6 motion) rms(old/new)
+  -1Dfile {motion6}
+  -1Dmatrix_save {aff12.1D} # base to input. N.B. cat_matvec vr.aff12.1D -I
+  -maxdisp1D {maxdisp.1D}
+#  -twopass
