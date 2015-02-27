@@ -1,0 +1,4 @@
+```python
+__all__ = ["var1", "var2"] # in `__init__.py`
+```
+Then `from package import *` will import `var1` and `var2`.
