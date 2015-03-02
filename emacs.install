@@ -1,0 +1,6 @@
+# generate Makefile
+./configure --prefix=$HOME/local/ --bindir=$HOME/local/bin
+
+make
+src/emacs -Q # test if it works
+make install
