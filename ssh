@@ -1,2 +1,4 @@
+# generate SSH key
+ssh-keygen -t rsa -C "your_email@example.com"
 # copy SSH key
 cat ~/.ssh/id_rsa.pub | ssh user@machine "mkdir ~/.ssh; cat >> ~/.ssh/authorized_keys"
