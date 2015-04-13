@@ -1,0 +1,9 @@
+#!/bin/bash
+# Install PyMVPA on MacOS
+git clone https://github.com/PyMVPA/PyMVPA.git
+cd PyMVPA
+brew install swig
+brew install hdf5
+sudo pip install --upgrade h5py
+python setup.py build_ext
+sudo python setup.py install
