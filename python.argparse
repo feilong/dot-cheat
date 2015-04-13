@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+import argparse
+import sys
+
+parser = argparse.ArgumentParser(description='Description content here.')
+parser.add_argument('-i', '--input_file', type=str,
+                    help='An argument with following contents')
+parser.add_argument('--sample-option', action='store_true',
+                    help='An option that can be turned on')
+args = parser.parse_args(sys.argv[1:])
+
+print(isinstance(args.input_file, str))
+print(isinstance(args.sample_option, bool)) # dash is replaced by underscore
